@@ -262,3 +262,109 @@
     flex-grow: 0;
     flex: none;
 }
+.skills-section{
+    width: 1000px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.skills-content{
+    width: 1000px;
+    height: 110px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.skill-title{
+    color: rgb(13,19,33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+    flex: none;
+}
+.skill-para{
+    color: rgb(13,19,33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center; 
+    align-self: stretch;
+    margin: 24px 0;
+    opacity: 0.7;
+    flex: none;
+}
+.skills-card{
+    width: 1000px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.skill-div1{
+    width: 322px;
+    height: 262px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.skill-box{
+    width: 285px;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.box-title{
+    color: rgb(13,19,33);
+    font-family: Azeret Mono;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left; 
+    align-self: stretch;
+    margin: 10px 0;
+}
+.box-para{
+    color: rgb(13,19,33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left; 
+    align-self: stretch;
+    margin: 8px 0;
+    opacity: 0.7;
+    flex: none;
+}
+.skill-btn{
+    color: rgb(13,19,33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left; 
+    align-self: stretch;
+    flex: none;
+    text-decoration: underline;
+}
