@@ -455,7 +455,7 @@
 }
 
 .footer-section{
-    width: 1240px;
+    width: 1243px;
     height: 32px;
     margin-top: 60px;
     display: flex;
@@ -479,7 +479,7 @@
 .footer-icon{
     width: 180px;
     text-align: center;
-    margin-right: 70px;
+    margin-right: 60px;
     display: flex;
     flex-direction: row;
     gap: 20px;
